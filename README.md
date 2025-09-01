@@ -1,12 +1,18 @@
-# React + Vite
+📌 Token Portfolio — Frontend Assignment (React + Vite + Redux)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive crypto portfolio dashboard built with React, Vite, Redux, and CoinGecko API.
+Features include:
 
-Currently, two official plugins are available:
+📊 Portfolio total card with donut chart & last updated timestamp
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📈 Watchlist table (Price, 24h%, Sparkline, Holdings, Value, Row menu)
 
-## Expanding the ESLint configuration
+🔄 Refresh prices & pagination
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+➕ Add Token modal with search & trending (via CoinGecko API)
+
+💾 State management with Redux + localStorage persistence
+
+👛 Wallet integration using wagmi + RainbowKit
+
+📱 Fully responsive (desktop + mobile) with loading & error states
